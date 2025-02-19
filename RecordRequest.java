@@ -1,4 +1,4 @@
-package uk.gov.homeoffice.helios.threat.index.store.reader.model;
+package uk.gov.REDACTED.helios.threat.index.store.reader.model;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 
