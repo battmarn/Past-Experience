@@ -1,4 +1,4 @@
-package uk.gov.homeoffice.helios.threat.index.store.reader.model;
+package uk.gov.REDACTED.helios.threat.index.store.reader.model;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -10,8 +10,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-import static uk.gov.homeoffice.helios.threat.index.store.reader.utility.DataConversion.nullable;
-import static uk.gov.homeoffice.helios.threat.index.store.reader.utility.DtoUtil.getComments;
+import static uk.gov.REDACTED.helios.threat.index.store.reader.utility.DataConversion.nullable;
+import static uk.gov.REDACTED.helios.threat.index.store.reader.utility.DtoUtil.getComments;
 
 @Data
 public class OrganisationDTO {
