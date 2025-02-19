@@ -3,31 +3,31 @@
 ### trinnylondon.com - 2022-2024
 #### Tech
 ##### Front-end
-CSS
-Cypress
-ESLint
-ReactJS
+CSS,
+Cypress,
+ESLint,
+ReactJS,
 Redux
 ##### Backend
-AWS Lambda
+AWS Lambda,
 NodeJS
 ##### General
-Bash
-CircleCI
-CommerceTools
-Confluence
-Contentful
-Docker
-Git
-Google Analytics
-Jest
-Jira
-LaunchDarkly
-MacOS
-NPM
-Ometria
-Postman
-Sonarcloud
+Bash,
+CircleCI,
+CommerceTools,
+Confluence,
+Contentful,
+Docker,
+Git,
+Google Analytics,
+Jest,
+Jira,
+LaunchDarkly,
+MacOS,
+NPM,
+Ometria,
+Postman,
+Sonarcloud,
 TypeScript
 #### Overview
 My role at Trinny London was roughly split 70% front-end and 30% back-end work.
@@ -60,39 +60,39 @@ I would also often tweak CircleCI's parameters to speed up build times and test 
 ### Government Security Projects - 2020-2022
 #### Tech
 ##### Front-end
-Axe
-CSS
-Cucumber
-Enzyme
-ESLint
-Gherkin
-HTML
-JavaScript
-Jest
-ReactJS
-React Router
-React Testing Library
-Redux
-Redux-Saga
-SASS
-SCSS
-TypeScript
-WAVE
+Axe,
+CSS,
+Cucumber,
+Enzyme,
+ESLint,
+Gherkin,
+HTML,
+JavaScript,
+Jest,
+ReactJS,
+React Router,
+React Testing Library,
+Redux,
+Redux-Saga,
+SASS,
+SCSS,
+TypeScript,
+WAVE,
 Webpack
 ##### Backend
-Java
+Java,
 Spring Boot
 ##### General
-Bash
-Confluence
-Git
-GitLab
-HashiCorp Vault
-Jira
-Kubernetes
-Linux
-Minikube
-NPM
+Bash,
+Confluence,
+Git,
+GitLab,
+HashiCorp Vault,
+Jira,
+Kubernetes,
+Linux,
+Minikube,
+NPM,
 SonarQube
 #### Overview
 My role within the Government Security Projects was roughly split 80% front-end and 20% back-end work.
@@ -106,36 +106,36 @@ Through a combination of running the WAVE tool against the UI via a browser exte
 I also ensured that the full application was usable (without options missing from the screen) at all zoom levels up to 400%, without breaking with the Gov.uk design paradigm.
 I demonstrated all of these changes to the client.
 ##### Relevant files
-axe.config.js
-axe.ts
+axe.config.js,
+axe.ts,
 index.spec.tsx
 #### Example 2 - Various Spring Boot Data Changes
 Although at any time there were between 2 and 4 Java-specific developers on the team, I had to ensure that various back-end services were set up to send and receive data of the correct types and structures to be usable by the front-end.
 This involved not just modifying or creating new objects and classes, but also creating and modifying relevant test data to ensure edge cases could be handled in the event of non-mandatory fields.
 ##### Relevant files
-identityMultipleTwoRecordsUISearch.json
-OrganisationDTO.java
-OrganisationTest.java
+identityMultipleTwoRecordsUISearch.json,
+OrganisationDTO.java,
+OrganisationTest.java,
 RecordRequest.java
 ### Unauthorised Trading Detection Program - 2018-2019
 #### Tech
 ##### Front-end
-JavaScript
+JavaScript,
 XML
 ##### Back-end
-DataServer
-Jenkins
-Oracle
-SAS
+DataServer,
+Jenkins,
+Oracle,
+SAS,
 SQL
 ##### General
-Bash
-CentOS
-Confluence
-DbVisualiser
-Excel
-Jira
-Mercurial
+Bash,
+CentOS,
+Confluence,
+DbVisualiser,
+Excel,
+Jira,
+Mercurial,
 NetReveal
 #### Overview
 My role within the Unauthorised Trading Detection Program was roughly split 50% front-end and 50% back-end work.
