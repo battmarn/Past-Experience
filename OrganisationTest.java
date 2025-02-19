@@ -1,4 +1,4 @@
-package uk.gov.homeoffice.helios.tqw.model;
+package uk.gov.REDACTED.helios.tqw.model;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
