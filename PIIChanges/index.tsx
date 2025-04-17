@@ -106,11 +106,6 @@ interface Props {
   facebookData: Record<string, any>;
 }
 
-// https://trinnylondon.com/us/checkout-success?orderID=checkout.order_id&customerID=customer.id&checkoutID=checkout.id
-// https://localhost/us/checkout-success?orderID=1238262022189&customerID=1996301434925&checkoutID=e9e6c6eae0374e4ef72f50b4bc72058c
-// https://localhost/uk/checkout-success?orderID=1100956106870&customerID=6064833618&checkoutID=e9e6c6eae0374e4ef72f50b4bc72058c
-// https://trinnylondon.com/us/checkout-success?orderID=1238262022189&customerID=1996301434925&checkoutID=e9e6c6eae0374e4ef72f50b4bc72058c
-
 // eslint-disable-next-line @typescript-eslint/no-shadow -- [TF-686] Make an effort to fix me
 const cardScheme = ({ cardScheme, method }: { cardScheme: string; gateway: string; method: string }) => {
   switch (method) {
