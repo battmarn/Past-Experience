@@ -41,21 +41,29 @@ As a result of this change, the process by which PII was sent to an AWS Lambda w
 I rewrote the typescript repository which contained this and related AWS Lambda functions to retrieve its data via a different API request.
 This involved creating and updating a number of custom types, fixing a large number of type errors, and performing extensive testing.
 Upon completion, the new Lambda function was deployed to production and seamlessly replaced the preexisting system.
+##### Relevant files
+/PIIChanges
 #### Example 2 - Node 14 to 18 upgrade
 I led the work to upgrade several major node versions at once for two critical repositories: the main website, and the API layer.
 This involved researching which functions and components had changed behaviour in versions 15-18, and ensuring that all existing usage of these functions was coded around or removed.
 I encountered substantial performance degradation when first upgrading to node 18, which required in-depth investigation and pair programming to determine the cause and fix: a redundant and now broken flag which was causing all functions to run sequentially instead of concurrently.
 Coverage and consistent pass rate of both unit and integration tests also had to be verified before the upgrade was deployed to production.
 Once deployed, overall build times improved for the main web application, and several other dependent libraries were able to be upgraded to more secure versions.
+##### Relevant files
+/Node14to18
 #### Example 3 - Navigation Redesign
 A substantial piece of work which I assisted with was a major redesign of the navigation system for the web application.
 This redesign was both from a usability and technological perspective, with significant work around reducing code duplication, fixing bugs, removing messy and poorly written code, and implementing a newer, more accessible design.
 As a part of this, I assisted with user testing sessions, making notes of any uncertainty or confusion faced by users and feeding this back to the UX design team.
 I worked closely with a colleague to optimise and eventually replace the website's top search bar, which previously contained multiple conflicting styling and logic rules, resulting in a more responsive component.
+##### Relevant files
+/Navigation
 #### Example 4 - Misc Code Improvements
 In addition to leading the node upgrade work, I was an advocate for consistent optimisation, deduplication, increasing of test coverage and removal of redundant code.
 When time allowed, or when my code changes already touched an area of the application which could be improved, I regularly would update types, add missing unit tests, or remove no-longer-in-use functions from the code base.
 I would also often tweak CircleCI's parameters to speed up build times and test runs, as well as to avoid allocating unnecessarily high resource values to build pipeline steps which did not require as much memory or CPU.
+##### Relevant files
+/Misc
 ## BAE Systems Digital Intelligence - Software Engineer
 ### Government Security Projects - 2020-2022
 #### Tech
