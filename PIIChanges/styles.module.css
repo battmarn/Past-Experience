@@ -1,0 +1,162 @@
+.root {
+  text-align: center;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  background-color: var(--grey-100);
+
+  @media (--from-large) {
+    padding: 30px 20px;
+    margin-top: 0px;
+  }
+}
+
+.heading {
+  font-size: 24px;
+  text-transform: none;
+  padding: 20px 5px;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: left;
+
+  @media (--from-large) {
+    max-width: 600px;
+    font-size: 15px;
+  }
+}
+
+.thanks {
+  width: 100%;
+  @media (--from-large) {
+    text-align: left;
+  }
+}
+
+.title {
+  padding: 1rem;
+  text-transform: none;
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 18px;
+
+  &.center {
+    text-align: center;
+  }
+}
+
+.infoTitle {
+  font-weight: var(--font-weight-semibold);
+  @media (--from-large) {
+    font-size: 18px;
+  }
+}
+
+.orderBlock {
+  background-color: var(--white);
+  padding: 10px;
+  letter-spacing: 0px;
+  margin: 10px 0;
+
+  &.transparent {
+    background-color: transparent;
+  }
+
+  &.center {
+    text-align: center;
+  }
+
+  @media (--from-large) {
+    padding: 20px;
+  }
+}
+
+.deliveryAddress {
+  margin-top: 20px;
+}
+
+.sectionTitle {
+  text-transform: none;
+  margin: 0;
+  letter-spacing: 0px;
+  font-weight: var(--font-weight-semibold);
+}
+
+.order {
+  width: 100%;
+  background-color: var(--white);
+  margin-top: 20px;
+  padding: 10px;
+
+  @media (--from-large) {
+    margin-top: 0;
+    padding: 10px 20px;
+  }
+}
+
+.paymentRow {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: space-between;
+
+  @media (--from-large) {
+    max-width: 200px;
+  }
+}
+
+.orderItem {
+  grid-template-columns: 70px auto 30%;
+  grid-template-areas: 'image details priceAndOptions';
+  align-items: start;
+  gap: 20px;
+
+  h2 {
+    text-transform: uppercase;
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-small);
+    color: var(--grey-500);
+    > a {
+      text-decoration: underline;
+    }
+  }
+}
+
+.order .totals {
+  margin-top: 20px;
+}
+
+.order .totals .totalRow {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: space-between;
+
+  &.bold {
+    font-weight: var(--font-weight-semibold);
+  }
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.paymentsTitle {
+  margin-top: 20px;
+}
+
+.youtube {
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+}
+
+.youtubeCaption {
+  margin-bottom: 24px;
+}
+
+.youtubeHeading {
+  margin-bottom: 0;
+  padding: 4px 5px 8px;
+}

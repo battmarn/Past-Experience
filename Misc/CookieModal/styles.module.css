@@ -1,0 +1,5 @@
+.modalOverrides {
+  @media (--from-large) {
+    max-width: 640px;
+  }
+}

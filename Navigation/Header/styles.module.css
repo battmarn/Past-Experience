@@ -1,0 +1,178 @@
+.header {
+  background-color: var(--white);
+  transition: transform var(--navigation-transition-duration) var(--navigation-transition-timing),
+    opacity var(--navigation-transition-duration) var(--navigation-transition-timing);
+  transform: translateY(0);
+  transform-origin: center top;
+  position: relative;
+
+  z-index: var(--navigation-header-z-index);
+}
+
+.header.minimised {
+  transform: translateY(
+    calc(calc(var(--navigation-v2-total-header-height) - var(--navigation-site-banner-minimised-height)) * -1)
+  );
+}
+
+.site-banners {
+  background-color: var(--yellow);
+  display: flex;
+  height: var(--header-site-banners-height);
+  position: relative;
+}
+
+.banner-currency {
+  display: none;
+
+  @media (--from-large) {
+    border: none;
+  }
+
+  @media (--desktop-menu) {
+    position: absolute;
+    right: 10px;
+    display: block;
+  }
+}
+
+.checkout {
+  margin-bottom: 20px;
+}
+
+.headerIconButtons {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  &.last {
+    justify-content: flex-end;
+  }
+
+  &.first {
+    justify-content: flex-start;
+  }
+  @media (--from-iphone6) {
+    gap: 6px;
+  }
+  @media (--from-medium) {
+    gap: 16px;
+  }
+}
+
+.checkout .site-banners,
+.checkout .headerIconButtons {
+  display: none;
+}
+
+.headerLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 2;
+}
+
+.mobile-menu-button {
+  @media (--desktop-menu) {
+    display: none;
+  }
+}
+
+.mobile-menu-button button,
+.btn-icon,
+.mobile-menu-button {
+  padding: 0;
+  margin: 0;
+  width: 23px;
+  height: 23px;
+
+  @media (--from-iphone6) {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.icon-close {
+  padding: 4px;
+  @media (--from-iphone6) {
+    padding: 6px;
+  }
+}
+
+.top-line {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px 0 10px;
+  height: var(--header-topline-height-mobile);
+
+  @media (--from-large) {
+    padding: 20px 0 0px 10px;
+  }
+  @media (--desktop-menu) {
+    padding: 16px 30px 0;
+    height: var(--header-topline-height);
+  }
+}
+
+.top-line.old {
+  justify-content: space-between;
+  @media (--desktop-menu) {
+    padding: 16px 30px 0;
+    justify-content: center;
+  }
+}
+
+.checkout .top-line {
+  justify-content: center;
+  border-bottom: 1px solid var(--grey-100);
+  margin-bottom: 0px;
+}
+
+.top-link.top-line-margin {
+  @media (--from-extra-large) {
+    margin: 15px 0 20px;
+  }
+}
+
+.searchButton {
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding: 0 40px;
+}
+
+.searchButtonWrapper {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*
+  Visually hidden isn't ideal - but apparently many companies are using this to implement
+  The H1, SVG logo, span combo to game Google Search title
+  This CSS is used by Laura Mercier and appears to work for them
+*/
+.visuallyHidden {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  word-wrap: normal;
+}
+
+.searchHint {
+  display: none;
+  @media (--from-ipadpro) {
+    display: initial;
+  }
+}

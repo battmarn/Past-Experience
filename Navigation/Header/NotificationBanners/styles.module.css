@@ -1,0 +1,35 @@
+.banners {
+  height: 0;
+}
+
+.enter {
+  opacity: 0;
+  transform: translateY(-25px);
+}
+
+.enterActive {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 300ms ease-out, opacity 300ms ease-out;
+}
+
+.enterDone {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.exitActive {
+  opacity: 0;
+  transform: translateY(-25px);
+  transition: transform 300ms ease-out, opacity 300ms ease-out;
+}
+
+.exitDone {
+  opacity: 0;
+  transform: translateY(-25px);
+}

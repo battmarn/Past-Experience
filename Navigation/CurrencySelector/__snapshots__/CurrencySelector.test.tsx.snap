@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrencySelector should behave as expected when elements are hovered over 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": undefined,
+      "location": "Header - Menu - Currency Selector",
+      "name": "Opened",
+    },
+  },
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "click",
+      "location": "Header - Menu - Currency Selector",
+      "name": "Selected new site - se",
+    },
+  },
+]
+`;
+
+exports[`CurrencySelector should fire events on open and close - mouse 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": undefined,
+      "location": "Header - Menu - Currency Selector",
+      "name": "Opened",
+    },
+  },
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": undefined,
+      "location": "Header - Menu - Currency Selector",
+      "name": "Closed",
+    },
+  },
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": undefined,
+      "location": "Header - Menu - Currency Selector",
+      "name": "Opened",
+    },
+  },
+]
+`;
+
+exports[`CurrencySelector should fire events on open and close - touch 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": undefined,
+      "location": "Header - Menu - Currency Selector",
+      "name": "Opened",
+    },
+  },
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": undefined,
+      "location": "Header - Menu - Currency Selector",
+      "name": "Closed",
+    },
+  },
+]
+`;
+
+exports[`CurrencySelector should render as expected 1`] = `
+<div>
+  <div
+    class="border"
+    role="menu"
+    tabindex="0"
+  >
+    <div
+      aria-hidden="true"
+      class="desktopSelect hidden"
+      data-test-id="country-select"
+      role="menu"
+      tabindex="0"
+    >
+      <p
+        class="menuShippingText"
+      >
+        site-menu-header
+      </p>
+      <a
+        class="menuOption"
+        data-test-id="desktop-currency-menu-option"
+        href="/de"
+        target="_top"
+      >
+        <img
+          alt="uk flag"
+          class="image"
+          src="/assets/flags/de.svg"
+        />
+        EUR | €
+      </a>
+      <a
+        class="menuOption"
+        data-test-id="desktop-currency-menu-option"
+        href="/se"
+        target="_top"
+      >
+        <img
+          alt="uk flag"
+          class="image"
+          src="/assets/flags/se.svg"
+        />
+        SEK | kr
+      </a>
+      <a
+        class="menuOption active"
+        data-test-id="desktop-currency-menu-option"
+        href="/uk"
+        target="_top"
+      >
+        <img
+          alt="uk flag"
+          class="image"
+          src="/assets/flags/uk.svg"
+        />
+        GBP | £
+      </a>
+    </div>
+    <div
+      class="flagsContainer"
+    >
+      <button
+        class="buttonSelect"
+        data-test-id="desktop-currency-button-select"
+      >
+        <img
+          alt="uk flag"
+          class="image"
+          src="/assets/flags/uk.svg"
+        />
+        <span
+          data-test-id="header-selected-site"
+        >
+          GBP | £
+        </span>
+        <img
+          alt="arrow"
+          class="arrows"
+          src="test-file-stub"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CurrencySelector when mouse leaves allow 300ms before closing the menu 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": undefined,
+      "location": "Header - Menu - Currency Selector",
+      "name": "Opened",
+    },
+  },
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": undefined,
+      "location": "Header - Menu - Currency Selector",
+      "name": "Closed",
+    },
+  },
+]
+`;

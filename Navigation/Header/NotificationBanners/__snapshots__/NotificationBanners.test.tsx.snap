@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotificationBanners /> will render notification banner 1`] = `
+<div>
+  <div
+    class="banners"
+  >
+    <div
+      class="root error"
+    >
+      <p
+        class="paragraphDefault"
+      >
+        Wrong email or password, please try again.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<NotificationBanners /> will render notification banner with minimised class 1`] = `
+<div>
+  <div
+    class="banners"
+  >
+    <div
+      class="root error minimised"
+    >
+      <p
+        class="paragraphDefault"
+      >
+        Wrong email or password, please try again.
+      </p>
+    </div>
+  </div>
+</div>
+`;

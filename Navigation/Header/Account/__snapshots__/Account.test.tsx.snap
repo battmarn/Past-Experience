@@ -1,0 +1,668 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Account /> when current user is passed in, but id is not present will render the SignUsers component with information to sign in 1`] = `
+<div>
+  <div
+    class="account"
+  >
+    <button
+      aria-expanded="false"
+      class="accessibleFocus"
+      data-test-id="navigation-account"
+    >
+      <test-file-stub
+        aria-label="My Account"
+        classname="icon accountIcon"
+      />
+    </button>
+    <div
+      class="accountHoverDropdown isInvisible"
+      data-test-id="navigation-account-dropdown"
+      hidden=""
+      role="menu"
+    >
+      <span
+        class="accountName"
+        data-test-id="navigation-account-dropdown-name"
+      >
+        Hello, Skyler
+      </span>
+      <ul
+        class="accountLinksList"
+        data-test-id="account-dropdown-links"
+      >
+        <li
+          class="accountLinkItem"
+        >
+          <a
+            class="accountLinkButton MuiBox-root emotion-0"
+            data-test-id="account-link-profile"
+            href="/my-account"
+          >
+            <span>
+              My account
+            </span>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-1"
+              data-test-id="icon-chevron-right"
+              focusable="false"
+              style="width: 11px; height: 11px;"
+              viewBox="0 0 5 10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1L5 5L1 9"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </a>
+        </li>
+        <li
+          class="accountLinkItem"
+        >
+          <a
+            class="accountLinkButton MuiBox-root emotion-0"
+            data-test-id="account-link-help"
+            href="https://trinny-london.zendesk.com/hc/en-uk"
+          >
+            <span>
+              Help
+            </span>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-1"
+              data-test-id="icon-chevron-right"
+              focusable="false"
+              style="width: 11px; height: 11px;"
+              viewBox="0 0 5 10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1L5 5L1 9"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </a>
+        </li>
+        <li
+          class="accountLinkItem"
+        >
+          <button
+            class="accountLinkButton"
+            data-test-id="account-link-signout"
+          >
+            <span>
+              Sign out
+            </span>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-1"
+              data-test-id="icon-chevron-right"
+              focusable="false"
+              style="width: 11px; height: 11px;"
+              viewBox="0 0 5 10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1L5 5L1 9"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Account /> when current user is passed in, but id is not present will track the click event 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "icon click",
+      "location": "Header",
+      "name": "Clicked - Sign In",
+    },
+  },
+]
+`;
+
+exports[`<Account /> when current user is valid will hide the dropdown on unhover the icon after a timeout 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "icon click",
+      "location": "Header",
+      "name": "Opened Account Dropdown",
+    },
+  },
+]
+`;
+
+exports[`<Account /> when current user is valid will hide the dropdown straight away after unhovering the dropdown 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "icon click",
+      "location": "Header",
+      "name": "Opened Account Dropdown",
+    },
+  },
+]
+`;
+
+exports[`<Account /> when current user is valid will keep the dropdown visible if we unhover and hover the icon quickly 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "icon click",
+      "location": "Header",
+      "name": "Opened Account Dropdown",
+    },
+  },
+]
+`;
+
+exports[`<Account /> when current user is valid will keep the dropdown visible if we unhover the icon and hover the dropdown 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "icon click",
+      "location": "Header",
+      "name": "Opened Account Dropdown",
+    },
+  },
+]
+`;
+
+exports[`<Account /> when current user is valid will render the account icon 1`] = `
+<div>
+  <div
+    class="account"
+  >
+    <button
+      aria-expanded="false"
+      class="accessibleFocus"
+      data-test-id="navigation-account"
+    >
+      <test-file-stub
+        aria-label="My Account"
+        classname="icon accountIcon"
+      />
+    </button>
+    <div
+      class="accountHoverDropdown isInvisible"
+      data-test-id="navigation-account-dropdown"
+      hidden=""
+      role="menu"
+    >
+      <span
+        class="accountName"
+        data-test-id="navigation-account-dropdown-name"
+      >
+        Hello, Skyler
+      </span>
+      <ul
+        class="accountLinksList"
+        data-test-id="account-dropdown-links"
+      >
+        <li
+          class="accountLinkItem"
+        >
+          <a
+            class="accountLinkButton MuiBox-root emotion-0"
+            data-test-id="account-link-profile"
+            href="/my-account"
+          >
+            <span>
+              My account
+            </span>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-1"
+              data-test-id="icon-chevron-right"
+              focusable="false"
+              style="width: 11px; height: 11px;"
+              viewBox="0 0 5 10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1L5 5L1 9"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </a>
+        </li>
+        <li
+          class="accountLinkItem"
+        >
+          <a
+            class="accountLinkButton MuiBox-root emotion-0"
+            data-test-id="account-link-help"
+            href="https://trinny-london.zendesk.com/hc/en-uk"
+          >
+            <span>
+              Help
+            </span>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-1"
+              data-test-id="icon-chevron-right"
+              focusable="false"
+              style="width: 11px; height: 11px;"
+              viewBox="0 0 5 10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1L5 5L1 9"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </a>
+        </li>
+        <li
+          class="accountLinkItem"
+        >
+          <button
+            class="accountLinkButton"
+            data-test-id="account-link-signout"
+          >
+            <span>
+              Sign out
+            </span>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-1"
+              data-test-id="icon-chevron-right"
+              focusable="false"
+              style="width: 11px; height: 11px;"
+              viewBox="0 0 5 10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1L5 5L1 9"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Account /> when current user is valid will track an account dropdown item link click 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "icon click",
+      "location": "Header",
+      "name": "Opened Account Dropdown",
+    },
+  },
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "click",
+      "location": "Header - Account Dropdown",
+      "name": "Clicked - Help",
+    },
+  },
+]
+`;
+
+exports[`<Account /> when current user is valid will track the account icon click 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "icon click",
+      "location": "Header",
+      "name": "Opened Account Dropdown",
+    },
+  },
+]
+`;
+
+exports[`<Account /> when current user is valid will track the account icon hover 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "icon click",
+      "location": "Header",
+      "name": "Opened Account Dropdown",
+    },
+  },
+]
+`;
+
+exports[`<Account /> when current user is valid will track the correct path for profile dropdown link when my account flag is off 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "icon click",
+      "location": "Header",
+      "name": "Opened Account Dropdown",
+    },
+  },
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "click",
+      "location": "Header - Account Dropdown",
+      "name": "Clicked - My Account",
+    },
+  },
+]
+`;
+
+exports[`<Account /> when current user is valid will track the correct path for profile dropdown link when my account flag is on 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "icon click",
+      "location": "Header",
+      "name": "Opened Account Dropdown",
+    },
+  },
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "click",
+      "location": "Header - Account Dropdown",
+      "name": "Clicked - My Account",
+    },
+  },
+]
+`;
+
+exports[`<Account /> when current user is valid will track the signout link on click 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "icon click",
+      "location": "Header",
+      "name": "Opened Account Dropdown",
+    },
+  },
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "click",
+      "location": "Header - Account Dropdown",
+      "name": "Clicked - Sign Out",
+    },
+  },
+]
+`;
+
+exports[`<Account /> when current user is valid will use the correct help link for a given siteID 1`] = `
+<div>
+  <div
+    class="account"
+  >
+    <button
+      aria-expanded="true"
+      class="accessibleFocus"
+      data-test-id="navigation-account"
+    >
+      <test-file-stub
+        aria-label="My Account"
+        classname="icon accountIcon"
+      />
+    </button>
+    <div
+      class="accountHoverDropdown"
+      data-test-id="navigation-account-dropdown"
+      role="menu"
+    >
+      <span
+        class="accountName"
+        data-test-id="navigation-account-dropdown-name"
+      >
+        Hello, Skyler
+      </span>
+      <ul
+        class="accountLinksList"
+        data-test-id="account-dropdown-links"
+      >
+        <li
+          class="accountLinkItem"
+        >
+          <a
+            class="accountLinkButton MuiBox-root emotion-0"
+            data-test-id="account-link-profile"
+            href="/my-account"
+          >
+            <span>
+              My account
+            </span>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-1"
+              data-test-id="icon-chevron-right"
+              focusable="false"
+              style="width: 11px; height: 11px;"
+              viewBox="0 0 5 10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1L5 5L1 9"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </a>
+        </li>
+        <li
+          class="accountLinkItem"
+        >
+          <a
+            class="accountLinkButton MuiBox-root emotion-0"
+            data-test-id="account-link-help"
+            href="https://trinny-london.zendesk.com/hc/de"
+          >
+            <span>
+              Help
+            </span>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-1"
+              data-test-id="icon-chevron-right"
+              focusable="false"
+              style="width: 11px; height: 11px;"
+              viewBox="0 0 5 10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1L5 5L1 9"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </a>
+        </li>
+        <li
+          class="accountLinkItem"
+        >
+          <button
+            class="accountLinkButton"
+            data-test-id="account-link-signout"
+          >
+            <span>
+              Sign out
+            </span>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-1"
+              data-test-id="icon-chevron-right"
+              focusable="false"
+              style="width: 11px; height: 11px;"
+              viewBox="0 0 5 10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1L5 5L1 9"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Account /> when currentUser is undefined will render account icon with correct href 1`] = `
+<div>
+  <div
+    class="account"
+  >
+    <button
+      aria-expanded="false"
+      class="accessibleFocus"
+      data-test-id="navigation-account"
+    >
+      <test-file-stub
+        aria-label="My Account"
+        classname="icon accountIcon"
+      />
+    </button>
+    <div
+      class="accountHoverDropdown isInvisible"
+      data-test-id="navigation-account-dropdown"
+      hidden=""
+      role="menu"
+    >
+      <span
+        class="accountName"
+        data-test-id="navigation-account-dropdown-name"
+      >
+        Hello, undefined
+      </span>
+      <ul
+        class="accountLinksList"
+        data-test-id="account-dropdown-links"
+      >
+        <li
+          class="accountLinkItem"
+        >
+          <a
+            class="accountLinkButton MuiBox-root emotion-0"
+            data-test-id="account-link-profile"
+            href="/my-account"
+          >
+            <span>
+              My account
+            </span>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-1"
+              data-test-id="icon-chevron-right"
+              focusable="false"
+              style="width: 11px; height: 11px;"
+              viewBox="0 0 5 10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1L5 5L1 9"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </a>
+        </li>
+        <li
+          class="accountLinkItem"
+        >
+          <a
+            class="accountLinkButton MuiBox-root emotion-0"
+            data-test-id="account-link-help"
+            href="https://trinny-london.zendesk.com/hc/en-uk"
+          >
+            <span>
+              Help
+            </span>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-1"
+              data-test-id="icon-chevron-right"
+              focusable="false"
+              style="width: 11px; height: 11px;"
+              viewBox="0 0 5 10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1L5 5L1 9"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </a>
+        </li>
+        <li
+          class="accountLinkItem"
+        >
+          <button
+            class="accountLinkButton"
+            data-test-id="account-link-signout"
+          >
+            <span>
+              Sign out
+            </span>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-1"
+              data-test-id="icon-chevron-right"
+              focusable="false"
+              style="width: 11px; height: 11px;"
+              viewBox="0 0 5 10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1L5 5L1 9"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Account /> when currentUser is undefined will track the click event 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "icon click",
+      "location": "Header",
+      "name": "Clicked - Sign In",
+    },
+  },
+]
+`;

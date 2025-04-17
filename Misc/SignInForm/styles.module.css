@@ -1,0 +1,17 @@
+.root {
+  padding: 0;
+}
+
+.buttonContainer {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.error {
+  color: var(--red);
+  margin: 5px 0;
+}
+
+.forgottenPasswordContainer {
+  text-align: right;
+}

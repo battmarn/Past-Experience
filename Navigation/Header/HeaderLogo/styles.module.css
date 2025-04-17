@@ -1,0 +1,61 @@
+.logoContainer {
+  margin: 0;
+  padding: 0;
+}
+
+.logoLink {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: max-content;
+}
+
+h1.logoLink {
+  line-height: 1;
+  margin: 0;
+  font-size: inherit;
+}
+
+.logoLink h1 {
+  margin-bottom: 0;
+}
+
+.logo {
+  display: inline-block;
+  width: 104px;
+  padding: 0;
+
+  @media (--from-medium) {
+    display: inline-block;
+    width: 269px;
+  }
+
+  @media (--from-large) {
+    width: 293px;
+  }
+
+  @media (--from-extra-large) {
+    width: 440px;
+  }
+}
+
+.homePageLogoH1 {
+  line-height: 0;
+}
+
+/*
+  Visually hidden isn't ideal - but apparently many companies are using this to implement
+  The H1, SVG logo, span combo to game Google Search title
+  This CSS is used by Laura Mercier and appears to work for them
+*/
+.visuallyHidden {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  word-wrap: normal;
+}

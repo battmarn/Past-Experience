@@ -1,0 +1,30 @@
+FROM eu.gcr.io/trinnylondon-platform/node-18.18.0:latest
+
+WORKDIR /app
+
+ENV NODE_ENV production
+ENV HOME /home/node/
+
+COPY startup.sh startup.sh
+
+RUN DEBIAN_FRONTEND=noninteractive apt-get -qq update && \
+    apt-get -qq upgrade -y && \
+    apt-get -qq install --no-install-recommends -y ca-certificates > /dev/null && \
+    update-ca-certificates && \
+    chmod +x /app/startup.sh && \
+    rm -rf /var/lib/apt/lists/* && \
+    mkdir /home/node/.aws && \
+    ln -s /vault/secrets/aws /home/node/.aws/credentials
+
+COPY dist/ dist/
+
+ARG CIRCLE_BUILD_NUM
+
+# Vite build always runs in ESM.
+RUN echo '{"type":"module"}' > ./dist/package.json && \
+  find ./dist/client/static -type f -name "*.js" -exec sed -i "s/__DOCKERBUILD_VERSION/$CIRCLE_BUILD_NUM/g" {} \;
+
+EXPOSE 3000
+
+ENTRYPOINT ["/app/startup.sh"]
+

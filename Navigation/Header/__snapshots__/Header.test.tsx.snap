@@ -1,0 +1,1226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> for checkout pages will render the header component for checkout 1`] = `
+<div>
+  <header
+    class="header"
+    data-header="header"
+    data-test-id="header-not-minimised"
+  >
+    <div
+      class="site-banners"
+      data-test-id="site-banners-container"
+    >
+      <div
+        class="banner-currency-container"
+      >
+        <div
+          class="border banner-currency"
+          role="menu"
+          tabindex="0"
+        >
+          <div
+            aria-hidden="true"
+            class="desktopSelect hidden"
+            data-test-id="country-select"
+            role="menu"
+            tabindex="0"
+          >
+            <p
+              class="menuShippingText"
+            >
+              site-menu-header
+            </p>
+            <a
+              class="menuOption"
+              data-test-id="desktop-currency-menu-option"
+              href="de/checkout/"
+              target="_top"
+            >
+              <img
+                alt="uk flag"
+                class="image"
+                src="/assets/flags/de.svg"
+              />
+              EUR | €
+            </a>
+            <a
+              class="menuOption"
+              data-test-id="desktop-currency-menu-option"
+              href="se/checkout/"
+              target="_top"
+            >
+              <img
+                alt="uk flag"
+                class="image"
+                src="/assets/flags/se.svg"
+              />
+              SEK | kr
+            </a>
+            <a
+              class="menuOption active"
+              data-test-id="desktop-currency-menu-option"
+              href="uk/checkout/"
+              target="_top"
+            >
+              <img
+                alt="uk flag"
+                class="image"
+                src="/assets/flags/uk.svg"
+              />
+              GBP | £
+            </a>
+          </div>
+          <div
+            class="flagsContainer"
+          >
+            <button
+              class="buttonSelect"
+              data-test-id="desktop-currency-button-select"
+            >
+              <img
+                alt="uk flag"
+                class="image"
+                src="/assets/flags/uk.svg"
+              />
+              <span
+                data-test-id="header-selected-site"
+              >
+                GBP | £
+              </span>
+              <img
+                alt="arrow"
+                class="arrows"
+                src="test-file-stub"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="top-line"
+    >
+      <div
+        class="headerIconButtons first"
+      >
+        <div
+          class="mobile-menu-button"
+        >
+          <button
+            class="accessibleFocus"
+            data-test-id="mobile-nav-toggle"
+            type="button"
+          >
+            <test-file-stub
+              classname="icon btn-icon"
+              data-test-id="mobile-menu-open"
+            />
+          </button>
+        </div>
+        <div
+          role="search"
+        >
+          <button
+            aria-expanded="false"
+            aria-label="Open search menu"
+            class="searchTriggerButton accessibleFocus"
+            type="button"
+          >
+            <test-file-stub
+              aria-label="Open search menu"
+              classname="icon btn-icon"
+            />
+            <div
+              class="searchHint"
+            >
+              <div
+                class="searchHint"
+              >
+                <span
+                  class="searchHintText"
+                >
+                  search
+                </span>
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        class="headerLogo"
+      >
+        <div
+          class="logoContainer"
+        >
+          <a
+            class="logoLink accessibleFocus MuiBox-root emotion-0"
+            data-test-id="non-checkout-logo"
+            href="/"
+          >
+            <h1
+              class="homePageLogoH1"
+            >
+              <picture>
+                <source
+                  media="(max-width: 519px)"
+                  srcset="test-file-stub"
+                />
+                <img
+                  alt="Trinny London"
+                  class="logo"
+                  src="test-file-stub"
+                />
+              </picture>
+              <span
+                class="visuallyHidden"
+              >
+                Trinny London
+              </span>
+            </h1>
+          </a>
+        </div>
+      </div>
+      <div
+        class="headerIconButtons last"
+      >
+        <div
+          class="account"
+        >
+          <button
+            aria-expanded="false"
+            class="accessibleFocus"
+            data-test-id="navigation-account"
+          >
+            <test-file-stub
+              aria-label="My Account"
+              classname="icon accountIcon"
+            />
+          </button>
+          <div
+            class="accountHoverDropdown isInvisible"
+            data-test-id="navigation-account-dropdown"
+            hidden=""
+            role="menu"
+          >
+            <span
+              class="accountName"
+              data-test-id="navigation-account-dropdown-name"
+            >
+              hello, undefined
+            </span>
+            <ul
+              class="accountLinksList"
+              data-test-id="account-dropdown-links"
+            >
+              <li
+                class="accountLinkItem"
+              >
+                <a
+                  class="accountLinkButton MuiBox-root emotion-0"
+                  data-test-id="account-link-profile"
+                  href="/my-account"
+                >
+                  <span>
+                    My account
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-2"
+                    data-test-id="icon-chevron-right"
+                    focusable="false"
+                    style="width: 11px; height: 11px;"
+                    viewBox="0 0 5 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L5 5L1 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li
+                class="accountLinkItem"
+              >
+                <a
+                  class="accountLinkButton MuiBox-root emotion-0"
+                  data-test-id="account-link-help"
+                  href="https://trinny-london.zendesk.com/hc/en-uk"
+                >
+                  <span>
+                    Help
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-2"
+                    data-test-id="icon-chevron-right"
+                    focusable="false"
+                    style="width: 11px; height: 11px;"
+                    viewBox="0 0 5 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L5 5L1 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li
+                class="accountLinkItem"
+              >
+                <button
+                  class="accountLinkButton"
+                  data-test-id="account-link-signout"
+                >
+                  <span>
+                    Sign out
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-2"
+                    data-test-id="icon-chevron-right"
+                    focusable="false"
+                    style="width: 11px; height: 11px;"
+                    viewBox="0 0 5 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L5 5L1 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="basket-button"
+          data-test-id="basket-desktop"
+        >
+          <button
+            aria-label="View your bag"
+            data-test-id="navigation-cart"
+          >
+            <div
+              class="iconWrapper filled"
+            >
+              <test-file-stub
+                aria-label="Cart"
+                classname="icon cartIcon"
+              />
+              <span
+                class="text navText itemCount"
+                data-test-id="bag-item-count"
+              >
+                2
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    class="minimised-site-banners"
+  />
+  <div
+    class="fader-container"
+  >
+    <nav
+      aria-labelledby=":rb:"
+      class="nav-menu"
+      data-test-id="navbar"
+    >
+      <h2
+        class="visuallyHidden"
+        id=":rb:"
+      >
+        Main Menu
+      </h2>
+      <div
+        class="navbar-list first"
+      >
+        <div
+          class="navbar-list-item"
+          data-test-id="category-item-1ShH2Iklr6mypdfqwf4EOQ"
+        >
+          <button
+            class="animateUnderline"
+            data-test-id="category-item-button-1ShH2Iklr6mypdfqwf4EOQ"
+          >
+            Makeup
+          </button>
+        </div>
+      </div>
+      <div
+        aria-hidden="true"
+        class="logo-middle-container"
+      >
+        <a
+          class="logo-link MuiBox-root emotion-0"
+          data-test-id="minimised-logo"
+          href="/"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            class="logo-middle-img"
+            src="test-file-stub"
+          />
+        </a>
+      </div>
+      <div
+        class="navbar-list second"
+      >
+        <div
+          class="navbar-list-item"
+          data-test-id="category-item-3A29nMpiiTsTshdybf8OJ0"
+        >
+          <button
+            class="animateUnderline"
+            data-test-id="category-item-button-3A29nMpiiTsTshdybf8OJ0"
+          >
+            Skincare
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="fader"
+    />
+  </div>
+  <div
+    class="banners"
+  />
+</div>
+`;
+
+exports[`<Header /> for non-checkout pages logo will track the logo click 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "image click",
+      "location": "Header",
+      "name": "Clicked - Logo",
+    },
+  },
+]
+`;
+
+exports[`<Header /> for non-checkout pages mobile menu will toggle the mobile menu closed when the mobile menu button is clicked 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "icon click",
+      "location": "Header",
+      "name": "Closed Mobile Nav",
+    },
+  },
+]
+`;
+
+exports[`<Header /> for non-checkout pages mobile menu will toggle the mobile menu open when the mobile menu button is clicked 1`] = `
+Array [
+  Object {
+    "event": "site_interaction",
+    "site_interaction_info": Object {
+      "featureType": "icon click",
+      "location": "Header",
+      "name": "Opened Mobile Nav",
+    },
+  },
+]
+`;
+
+exports[`<Header /> for non-checkout pages site banners will update css classes when site banners are available 1`] = `
+<div>
+  <header
+    class="header"
+    data-header="header"
+    data-test-id="header-not-minimised"
+  >
+    <div
+      class="site-banners"
+      data-test-id="site-banners-container"
+    >
+      <div />
+      <div
+        class="banner-currency-container"
+      >
+        <div
+          class="border banner-currency"
+          role="menu"
+          tabindex="0"
+        >
+          <div
+            aria-hidden="true"
+            class="desktopSelect hidden"
+            data-test-id="country-select"
+            role="menu"
+            tabindex="0"
+          >
+            <p
+              class="menuShippingText"
+            >
+              site-menu-header
+            </p>
+            <a
+              class="menuOption"
+              data-test-id="desktop-currency-menu-option"
+              href="de"
+              target="_top"
+            >
+              <img
+                alt="uk flag"
+                class="image"
+                src="/assets/flags/de.svg"
+              />
+              EUR | €
+            </a>
+            <a
+              class="menuOption"
+              data-test-id="desktop-currency-menu-option"
+              href="se"
+              target="_top"
+            >
+              <img
+                alt="uk flag"
+                class="image"
+                src="/assets/flags/se.svg"
+              />
+              SEK | kr
+            </a>
+            <a
+              class="menuOption active"
+              data-test-id="desktop-currency-menu-option"
+              href="uk"
+              target="_top"
+            >
+              <img
+                alt="uk flag"
+                class="image"
+                src="/assets/flags/uk.svg"
+              />
+              GBP | £
+            </a>
+          </div>
+          <div
+            class="flagsContainer"
+          >
+            <button
+              class="buttonSelect"
+              data-test-id="desktop-currency-button-select"
+            >
+              <img
+                alt="uk flag"
+                class="image"
+                src="/assets/flags/uk.svg"
+              />
+              <span
+                data-test-id="header-selected-site"
+              >
+                GBP | £
+              </span>
+              <img
+                alt="arrow"
+                class="arrows"
+                src="test-file-stub"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="top-line top-line-margin"
+    >
+      <div
+        class="headerIconButtons first"
+      >
+        <div
+          class="mobile-menu-button"
+        >
+          <button
+            class="accessibleFocus"
+            data-test-id="mobile-nav-toggle"
+            type="button"
+          >
+            <test-file-stub
+              classname="icon btn-icon"
+              data-test-id="mobile-menu-open"
+            />
+          </button>
+        </div>
+        <div
+          role="search"
+        >
+          <button
+            aria-expanded="false"
+            aria-label="Open search menu"
+            class="searchTriggerButton accessibleFocus"
+            type="button"
+          >
+            <test-file-stub
+              aria-label="Open search menu"
+              classname="icon btn-icon"
+            />
+            <div
+              class="searchHint"
+            >
+              <div
+                class="searchHint"
+              >
+                <span
+                  class="searchHintText"
+                >
+                  search
+                </span>
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        class="headerLogo"
+      >
+        <div
+          class="logoContainer"
+        >
+          <a
+            class="logoLink accessibleFocus MuiBox-root emotion-0"
+            data-test-id="non-checkout-logo"
+            href="/"
+          >
+            <picture>
+              <source
+                media="(max-width: 519px)"
+                srcset="test-file-stub"
+              />
+              <img
+                alt="Trinny London"
+                class="logo"
+                src="test-file-stub"
+              />
+            </picture>
+          </a>
+        </div>
+      </div>
+      <div
+        class="headerIconButtons last"
+      >
+        <div
+          class="account"
+        >
+          <button
+            aria-expanded="false"
+            class="accessibleFocus"
+            data-test-id="navigation-account"
+          >
+            <test-file-stub
+              aria-label="My Account"
+              classname="icon accountIcon"
+            />
+          </button>
+          <div
+            class="accountHoverDropdown isInvisible"
+            data-test-id="navigation-account-dropdown"
+            hidden=""
+            role="menu"
+          >
+            <span
+              class="accountName"
+              data-test-id="navigation-account-dropdown-name"
+            >
+              hello, undefined
+            </span>
+            <ul
+              class="accountLinksList"
+              data-test-id="account-dropdown-links"
+            >
+              <li
+                class="accountLinkItem"
+              >
+                <a
+                  class="accountLinkButton MuiBox-root emotion-0"
+                  data-test-id="account-link-profile"
+                  href="/my-account"
+                >
+                  <span>
+                    My account
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-2"
+                    data-test-id="icon-chevron-right"
+                    focusable="false"
+                    style="width: 11px; height: 11px;"
+                    viewBox="0 0 5 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L5 5L1 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li
+                class="accountLinkItem"
+              >
+                <a
+                  class="accountLinkButton MuiBox-root emotion-0"
+                  data-test-id="account-link-help"
+                  href="https://trinny-london.zendesk.com/hc/en-uk"
+                >
+                  <span>
+                    Help
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-2"
+                    data-test-id="icon-chevron-right"
+                    focusable="false"
+                    style="width: 11px; height: 11px;"
+                    viewBox="0 0 5 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L5 5L1 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li
+                class="accountLinkItem"
+              >
+                <button
+                  class="accountLinkButton"
+                  data-test-id="account-link-signout"
+                >
+                  <span>
+                    Sign out
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-2"
+                    data-test-id="icon-chevron-right"
+                    focusable="false"
+                    style="width: 11px; height: 11px;"
+                    viewBox="0 0 5 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L5 5L1 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="basket-button"
+          data-test-id="basket-desktop"
+        >
+          <button
+            aria-label="View your bag"
+            data-test-id="navigation-cart"
+          >
+            <div
+              class="iconWrapper filled"
+            >
+              <test-file-stub
+                aria-label="Cart"
+                classname="icon cartIcon"
+              />
+              <span
+                class="text navText itemCount"
+                data-test-id="bag-item-count"
+              >
+                2
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    class="minimised-site-banners"
+  />
+  <div
+    class="fader-container"
+  >
+    <nav
+      aria-labelledby=":r6:"
+      class="nav-menu"
+      data-test-id="navbar"
+    >
+      <h2
+        class="visuallyHidden"
+        id=":r6:"
+      >
+        Main Menu
+      </h2>
+      <div
+        class="navbar-list first"
+      >
+        <div
+          class="navbar-list-item"
+          data-test-id="category-item-1ShH2Iklr6mypdfqwf4EOQ"
+        >
+          <button
+            class="animateUnderline"
+            data-test-id="category-item-button-1ShH2Iklr6mypdfqwf4EOQ"
+          >
+            Makeup
+          </button>
+        </div>
+      </div>
+      <div
+        aria-hidden="true"
+        class="logo-middle-container"
+      >
+        <a
+          class="logo-link MuiBox-root emotion-0"
+          data-test-id="minimised-logo"
+          href="/"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            class="logo-middle-img"
+            src="test-file-stub"
+          />
+        </a>
+      </div>
+      <div
+        class="navbar-list second"
+      >
+        <div
+          class="navbar-list-item"
+          data-test-id="category-item-3A29nMpiiTsTshdybf8OJ0"
+        >
+          <button
+            class="animateUnderline"
+            data-test-id="category-item-button-3A29nMpiiTsTshdybf8OJ0"
+          >
+            Skincare
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="fader"
+    />
+  </div>
+  <div
+    class="banners"
+  />
+</div>
+`;
+
+exports[`<Header /> for non-checkout pages will render the header component for non checkout pages 1`] = `
+<div>
+  <header
+    class="header"
+    data-header="header"
+    data-test-id="header-not-minimised"
+  >
+    <div
+      class="site-banners"
+      data-test-id="site-banners-container"
+    >
+      <div
+        class="banner-currency-container"
+      >
+        <div
+          class="border banner-currency"
+          role="menu"
+          tabindex="0"
+        >
+          <div
+            aria-hidden="true"
+            class="desktopSelect hidden"
+            data-test-id="country-select"
+            role="menu"
+            tabindex="0"
+          >
+            <p
+              class="menuShippingText"
+            >
+              site-menu-header
+            </p>
+            <a
+              class="menuOption"
+              data-test-id="desktop-currency-menu-option"
+              href="de"
+              target="_top"
+            >
+              <img
+                alt="uk flag"
+                class="image"
+                src="/assets/flags/de.svg"
+              />
+              EUR | €
+            </a>
+            <a
+              class="menuOption"
+              data-test-id="desktop-currency-menu-option"
+              href="se"
+              target="_top"
+            >
+              <img
+                alt="uk flag"
+                class="image"
+                src="/assets/flags/se.svg"
+              />
+              SEK | kr
+            </a>
+            <a
+              class="menuOption active"
+              data-test-id="desktop-currency-menu-option"
+              href="uk"
+              target="_top"
+            >
+              <img
+                alt="uk flag"
+                class="image"
+                src="/assets/flags/uk.svg"
+              />
+              GBP | £
+            </a>
+          </div>
+          <div
+            class="flagsContainer"
+          >
+            <button
+              class="buttonSelect"
+              data-test-id="desktop-currency-button-select"
+            >
+              <img
+                alt="uk flag"
+                class="image"
+                src="/assets/flags/uk.svg"
+              />
+              <span
+                data-test-id="header-selected-site"
+              >
+                GBP | £
+              </span>
+              <img
+                alt="arrow"
+                class="arrows"
+                src="test-file-stub"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="top-line"
+    >
+      <div
+        class="headerIconButtons first"
+      >
+        <div
+          class="mobile-menu-button"
+        >
+          <button
+            class="accessibleFocus"
+            data-test-id="mobile-nav-toggle"
+            type="button"
+          >
+            <test-file-stub
+              classname="icon btn-icon"
+              data-test-id="mobile-menu-open"
+            />
+          </button>
+        </div>
+        <div
+          role="search"
+        >
+          <button
+            aria-expanded="false"
+            aria-label="Open search menu"
+            class="searchTriggerButton accessibleFocus"
+            type="button"
+          >
+            <test-file-stub
+              aria-label="Open search menu"
+              classname="icon btn-icon"
+            />
+            <div
+              class="searchHint"
+            >
+              <div
+                class="searchHint"
+              >
+                <span
+                  class="searchHintText"
+                >
+                  search
+                </span>
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        class="headerLogo"
+      >
+        <div
+          class="logoContainer"
+        >
+          <a
+            class="logoLink accessibleFocus MuiBox-root emotion-0"
+            data-test-id="non-checkout-logo"
+            href="/"
+          >
+            <picture>
+              <source
+                media="(max-width: 519px)"
+                srcset="test-file-stub"
+              />
+              <img
+                alt="Trinny London"
+                class="logo"
+                src="test-file-stub"
+              />
+            </picture>
+          </a>
+        </div>
+      </div>
+      <div
+        class="headerIconButtons last"
+      >
+        <div
+          class="account"
+        >
+          <button
+            aria-expanded="false"
+            class="accessibleFocus"
+            data-test-id="navigation-account"
+          >
+            <test-file-stub
+              aria-label="My Account"
+              classname="icon accountIcon"
+            />
+          </button>
+          <div
+            class="accountHoverDropdown isInvisible"
+            data-test-id="navigation-account-dropdown"
+            hidden=""
+            role="menu"
+          >
+            <span
+              class="accountName"
+              data-test-id="navigation-account-dropdown-name"
+            >
+              hello, undefined
+            </span>
+            <ul
+              class="accountLinksList"
+              data-test-id="account-dropdown-links"
+            >
+              <li
+                class="accountLinkItem"
+              >
+                <a
+                  class="accountLinkButton MuiBox-root emotion-0"
+                  data-test-id="account-link-profile"
+                  href="/my-account"
+                >
+                  <span>
+                    My account
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-2"
+                    data-test-id="icon-chevron-right"
+                    focusable="false"
+                    style="width: 11px; height: 11px;"
+                    viewBox="0 0 5 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L5 5L1 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li
+                class="accountLinkItem"
+              >
+                <a
+                  class="accountLinkButton MuiBox-root emotion-0"
+                  data-test-id="account-link-help"
+                  href="https://trinny-london.zendesk.com/hc/en-uk"
+                >
+                  <span>
+                    Help
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-2"
+                    data-test-id="icon-chevron-right"
+                    focusable="false"
+                    style="width: 11px; height: 11px;"
+                    viewBox="0 0 5 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L5 5L1 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li
+                class="accountLinkItem"
+              >
+                <button
+                  class="accountLinkButton"
+                  data-test-id="account-link-signout"
+                >
+                  <span>
+                    Sign out
+                  </span>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium emotion-2"
+                    data-test-id="icon-chevron-right"
+                    focusable="false"
+                    style="width: 11px; height: 11px;"
+                    viewBox="0 0 5 10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L5 5L1 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="basket-button"
+          data-test-id="basket-desktop"
+        >
+          <button
+            aria-label="View your bag"
+            data-test-id="navigation-cart"
+          >
+            <div
+              class="iconWrapper filled"
+            >
+              <test-file-stub
+                aria-label="Cart"
+                classname="icon cartIcon"
+              />
+              <span
+                class="text navText itemCount"
+                data-test-id="bag-item-count"
+              >
+                2
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    class="minimised-site-banners"
+  />
+  <div
+    class="fader-container"
+  >
+    <nav
+      aria-labelledby=":r1:"
+      class="nav-menu"
+      data-test-id="navbar"
+    >
+      <h2
+        class="visuallyHidden"
+        id=":r1:"
+      >
+        Main Menu
+      </h2>
+      <div
+        class="navbar-list first"
+      >
+        <div
+          class="navbar-list-item"
+          data-test-id="category-item-1ShH2Iklr6mypdfqwf4EOQ"
+        >
+          <button
+            class="animateUnderline"
+            data-test-id="category-item-button-1ShH2Iklr6mypdfqwf4EOQ"
+          >
+            Makeup
+          </button>
+        </div>
+      </div>
+      <div
+        aria-hidden="true"
+        class="logo-middle-container"
+      >
+        <a
+          class="logo-link MuiBox-root emotion-0"
+          data-test-id="minimised-logo"
+          href="/"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            class="logo-middle-img"
+            src="test-file-stub"
+          />
+        </a>
+      </div>
+      <div
+        class="navbar-list second"
+      >
+        <div
+          class="navbar-list-item"
+          data-test-id="category-item-3A29nMpiiTsTshdybf8OJ0"
+        >
+          <button
+            class="animateUnderline"
+            data-test-id="category-item-button-3A29nMpiiTsTshdybf8OJ0"
+          >
+            Skincare
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="fader"
+    />
+  </div>
+  <div
+    class="banners"
+  />
+</div>
+`;

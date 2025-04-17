@@ -1,0 +1,67 @@
+.textBanners {
+  width: 100%;
+  padding: 0 0 0 10px;
+  display: grid;
+
+  @media (--from-medium) {
+    padding: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  50% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.notification {
+  opacity: 0;
+  grid-row: 1/1;
+  grid-column: 1/1;
+
+  &.active {
+    z-index: 1;
+  }
+}
+
+.enter {
+  opacity: 0;
+  transform: translateY(15px);
+  animation: reveal 600ms ease-out;
+}
+
+.enterActive {
+  opacity: 1;
+  transform: translateY(0);
+  /* transition: opacity 100ms ease-out, transform 100ms ease-out; */
+}
+
+.enterDone {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.exit {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.exitActive {
+  opacity: 0;
+  transition: opacity 300ms ease-out;
+}
+
+.exitDone {
+  opacity: 0;
+}

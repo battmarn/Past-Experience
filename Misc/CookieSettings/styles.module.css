@@ -1,0 +1,36 @@
+.mainHeading {
+  border-bottom: 1px solid var(--grey-500);
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.introText {
+  margin: 0 5px 20px;
+  font-size: var(--font-size-xsmall);
+}
+
+.cookieOptions {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 5px;
+}
+
+.cookieOptionRow {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 30px;
+}
+
+.switchContainer {
+  margin-right: 10px;
+}
+
+.cookieHeading {
+  font-size: 20px;
+  text-transform: none;
+  text-align: left;
+}
+
+.cookieText {
+  font-size: var(--font-size-xsmall);
+}
