@@ -59,7 +59,7 @@
     "@radix-ui/react-visually-hidden": "1.0.3",
     "@react-hook/media-query": "1.1.1",
     "@react-spring/web": "9.7.3",
-    "@remix-run/router": "1.16.0",
+    "@remix-run/router": "1.23.2",
     "@snowplow/browser-plugin-form-tracking": "3.16.0",
     "@snowplow/browser-plugin-link-click-tracking": "3.16.0",
     "@snowplow/browser-plugin-performance-navigation-timing": "3.16.0",
